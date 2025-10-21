@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- UGC Images -->
+  <url>
+    <loc>https://carte-marine.com/#communaute</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/mouillage-bretagne-cote-granit-rose.webp</image:loc>
+      <image:caption>Mouillage paradisiaque en Bretagne sur la Côte de Granit Rose</image:caption>
+      <image:title>Mouillage Bretagne Côte Granit Rose</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/coucher-soleil-mediterranee-corse.webp</image:loc>
+      <image:caption>Coucher de soleil sur la Méditerranée en Corse</image:caption>
+      <image:title>Coucher de soleil Méditerranée Corse</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/calanques-bonifacio-corse.webp</image:loc>
+      <image:caption>Calanques de Bonifacio en Corse</image:caption>
+      <image:title>Calanques Bonifacio Corse</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/port-la-rochelle-petit-matin.webp</image:loc>
+      <image:caption>Port de La Rochelle au petit matin</image:caption>
+      <image:title>Port La Rochelle petit matin</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/traversee-manche-navigation.webp</image:loc>
+      <image:caption>Traversée de la Manche en navigation</image:caption>
+      <image:title>Traversée Manche navigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/lagons-polynesiens-tahiti.webp</image:loc>
+      <image:caption>Lagons polynésiens de Tahiti</image:caption>
+      <image:title>Lagons polynésiens Tahiti</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/phare-ouessant-bretagne.webp</image:loc>
+      <image:caption>Phare d'Ouessant en Bretagne</image:caption>
+      <image:title>Phare Ouessant Bretagne</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/ugc/optimized/mouillage-sauvage-corse.webp</image:loc>
+      <image:caption>Mouillage sauvage en Corse</image:caption>
+      <image:title>Mouillage sauvage Corse</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Guide Images -->
+  <url>
+    <loc>https://carte-marine.com/#guides</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-lire-carte.jpg</image:loc>
+      <image:caption>Comment lire une carte marine : guide complet du débutant</image:caption>
+      <image:title>Guide lire carte marine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-planifier.jpg</image:loc>
+      <image:caption>Planifier votre première navigation côtière en 7 étapes</image:caption>
+      <image:title>Guide planifier navigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-marees.jpg</image:loc>
+      <image:caption>Calculer les marées : méthode simple expliquée</image:caption>
+      <image:title>Guide calculer marées</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-nuit.jpg</image:loc>
+      <image:caption>Navigation de nuit : cartes et sécurité</image:caption>
+      <image:title>Guide navigation nuit</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-meteo.jpg</image:loc>
+      <image:caption>Météo marine : comprendre les prévisions pour naviguer</image:caption>
+      <image:title>Guide météo marine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-symboles.jpg</image:loc>
+      <image:caption>Les 20 symboles de carte marine à connaître absolument</image:caption>
+      <image:title>Guide symboles carte marine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-equipement.jpg</image:loc>
+      <image:caption>Équipement de sécurité : checklist obligatoire et recommandée</image:caption>
+      <image:title>Guide équipement sécurité</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-mouillage.jpg</image:loc>
+      <image:caption>Techniques de mouillage : choisir et utiliser son ancre</image:caption>
+      <image:title>Guide techniques mouillage</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-cotiere.jpg</image:loc>
+      <image:caption>Navigation côtière : repères, alignements et relèvements</image:caption>
+      <image:title>Guide navigation côtière</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-gps.jpg</image:loc>
+      <image:caption>GPS marine : utiliser et optimiser son récepteur</image:caption>
+      <image:title>Guide GPS marine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-preparation.jpg</image:loc>
+      <image:caption>Préparation d'une sortie en mer : checklist complète</image:caption>
+      <image:title>Guide préparation sortie</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/guides/optimized/guide-reglementation.jpg</image:loc>
+      <image:caption>Réglementation maritime : permis, équipement, zones</image:caption>
+      <image:title>Guide réglementation maritime</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Testimonial Avatars -->
+  <url>
+    <loc>https://carte-marine.com/#communaute</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/testimonials/optimized/testimonial-1.jpg</image:loc>
+      <image:caption>Marc L., plaisancier débutant de Bretagne</image:caption>
+      <image:title>Témoignage Marc L.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/testimonials/optimized/testimonial-2.jpg</image:loc>
+      <image:caption>Jean-Pierre M., instructeur de voile en Méditerranée</image:caption>
+      <image:title>Témoignage Jean-Pierre M.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/testimonials/optimized/testimonial-3.jpg</image:loc>
+      <image:caption>Sophie D., propriétaire de bateau en Atlantique</image:caption>
+      <image:title>Témoignage Sophie D.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/testimonials/optimized/testimonial-4.jpg</image:loc>
+      <image:caption>Pierre L., navigateur expérimenté en Manche</image:caption>
+      <image:title>Témoignage Pierre L.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/testimonials/optimized/testimonial-5.jpg</image:loc>
+      <image:caption>Marie C., capitaine de yacht en Corse</image:caption>
+      <image:title>Témoignage Marie C.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/testimonials/optimized/testimonial-6.jpg</image:loc>
+      <image:caption>Antoine M., marin professionnel DOM-TOM</image:caption>
+      <image:title>Témoignage Antoine M.</image:title>
+    </image:image>
+  </url>
+  
+  <!-- FAQ Images -->
+  <url>
+    <loc>https://carte-marine.com/#faq</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/faq/optimized/carte-nautique-francaise-types.webp</image:loc>
+      <image:caption>Types de cartes nautiques françaises</image:caption>
+      <image:title>Carte nautique française</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/faq/optimized/carte-navigation-types-comparaison.webp</image:loc>
+      <image:caption>Comparaison types de cartes navigation</image:caption>
+      <image:title>Comparaison cartes navigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/faq/optimized/carte-marine-shom-marins-professionnels.webp</image:loc>
+      <image:caption>Cartes SHOM officielles Marine française</image:caption>
+      <image:title>Cartes SHOM Marine française</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/faq/optimized/portulan-carte-marine-ancienne-medievale.webp</image:loc>
+      <image:caption>Carte portulan médiévale française</image:caption>
+      <image:title>Portulan carte marine médiévale</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Zone Images -->
+  <url>
+    <loc>https://carte-marine.com/#zones</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/bretagne-carte-marine.jpg</image:loc>
+      <image:caption>Cartes marines Bretagne : de Saint-Malo au Morbihan</image:caption>
+      <image:title>Zone navigation Bretagne</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/mediterranee-carte-marine.jpg</image:loc>
+      <image:caption>Navigation en Méditerranée : cartes de Marseille à la Corse</image:caption>
+      <image:title>Zone navigation Méditerranée</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/atlantique-carte-marine.jpg</image:loc>
+      <image:caption>Côte Atlantique : cartes de La Rochelle à Arcachon</image:caption>
+      <image:title>Zone navigation Atlantique</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/manche-carte-marine.jpg</image:loc>
+      <image:caption>Cartes de la Manche : naviguer de Dunkerque à Cherbourg</image:caption>
+      <image:title>Zone navigation Manche</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/corse-carte-marine.jpg</image:loc>
+      <image:caption>Cartes marines Corse : le joyau de la Méditerranée</image:caption>
+      <image:title>Zone navigation Corse</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/domtom-carte-marine.jpg</image:loc>
+      <image:caption>Cartes marines d'outre-mer : Antilles, Réunion, Polynésie</image:caption>
+      <image:title>Zone navigation DOM-TOM</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Zone Images -->
+  <url>
+    <loc>https://carte-marine.com/#zones</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/zone-bretagne-cote-granit-rose.jpg</image:loc>
+      <image:caption>Cartes marines Bretagne : de Saint-Malo au Morbihan</image:caption>
+      <image:title>Zone Bretagne Côte Granit Rose</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/zone-mediterranee-cote-azur.jpg</image:loc>
+      <image:caption>Navigation en Méditerranée : cartes de Marseille à la Corse</image:caption>
+      <image:title>Zone Méditerranée Côte d'Azur</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/zone-atlantique-la-rochelle-arcachon.jpg</image:loc>
+      <image:caption>Côte Atlantique : cartes de La Rochelle à Arcachon</image:caption>
+      <image:title>Zone Atlantique La Rochelle Arcachon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/zone-manche-dunkerque-cherbourg.jpg</image:loc>
+      <image:caption>Cartes de la Manche : naviguer de Dunkerque à Cherbourg</image:caption>
+      <image:title>Zone Manche Dunkerque Cherbourg</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/zone-corse-bonifacio.jpg</image:loc>
+      <image:caption>Cartes marines Corse : le joyau de la Méditerranée</image:caption>
+      <image:title>Zone Corse Bonifacio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/zones/optimized/zone-dom-tom-lagons-tropicaux.jpg</image:loc>
+      <image:caption>Cartes marines d'outre-mer : Antilles, Réunion, Polynésie</image:caption>
+      <image:title>Zone DOM-TOM Lagons Tropicaux</image:title>
+    </image:image>
+  </url>
+  
+  <!-- App Logos -->
+  <url>
+    <loc>https://carte-marine.com/#apps</loc>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/navionics-boating-logo.png</image:loc>
+      <image:caption>Logo Navionics Boating</image:caption>
+      <image:title>Navionics Boating</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/cmap-embark-logo.png</image:loc>
+      <image:caption>Logo C-Map Embark</image:caption>
+      <image:title>C-Map Embark</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/openseamap-community-logo.png</image:loc>
+      <image:caption>Logo OpenSeaMap Community</image:caption>
+      <image:title>OpenSeaMap Community</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/expedition-marine-logo.png</image:loc>
+      <image:caption>Logo Expedition Marine</image:caption>
+      <image:title>Expedition Marine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/imray-charts-logo.png</image:loc>
+      <image:caption>Logo Imray Charts</image:caption>
+      <image:title>Imray Charts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/inavx-navigation-logo.png</image:loc>
+      <image:caption>Logo iNavX Navigation</image:caption>
+      <image:title>iNavX Navigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/maxsea-timezero-logo.png</image:loc>
+      <image:caption>Logo MaxSea TimeZero</image:caption>
+      <image:title>MaxSea TimeZero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/navicarte-french-logo.png</image:loc>
+      <image:caption>Logo Navicarte French</image:caption>
+      <image:title>Navicarte French</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/navionics-plus-premium-logo.png</image:loc>
+      <image:caption>Logo Navionics+ Premium</image:caption>
+      <image:title>Navionics+ Premium</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/opencpn-free-logo.png</image:loc>
+      <image:caption>Logo OpenCPN Free</image:caption>
+      <image:title>OpenCPN Free</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/shom-french-navy-logo.png</image:loc>
+      <image:caption>Logo SHOM French Navy</image:caption>
+      <image:title>SHOM French Navy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://carte-marine.com/assets/apps/timezero-professional-logo.png</image:loc>
+      <image:caption>Logo TimeZero Professional</image:caption>
+      <image:title>TimeZero Professional</image:title>
+    </image:image>
+  </url>
+  
+</urlset>

@@ -1,0 +1,304 @@
+/* Animations CSS pour les guides de navigation */
+
+/* Animation d'entrée pour les pages de guides */
+@keyframes guidePageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Animation de sortie pour les pages de guides */
+@keyframes guidePageExit {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+}
+
+/* Animation des sections de contenu */
+@keyframes sectionSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation des cartes de guides */
+@keyframes guideCardHover {
+  from {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+}
+
+/* Animation des boutons */
+@keyframes buttonPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Animation des icônes */
+@keyframes iconBounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Animation de chargement */
+@keyframes contentFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation de progression */
+@keyframes progressBar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Classes d'animation pour les composants */
+
+/* Page de guide entière */
+.guide-page-enter {
+  animation: guidePageEnter 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.guide-page-exit {
+  animation: guidePageExit 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Sections de contenu */
+.guide-section {
+  animation: sectionSlideIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.guide-section:nth-child(1) { animation-delay: 0.1s; }
+.guide-section:nth-child(2) { animation-delay: 0.2s; }
+.guide-section:nth-child(3) { animation-delay: 0.3s; }
+.guide-section:nth-child(4) { animation-delay: 0.4s; }
+.guide-section:nth-child(5) { animation-delay: 0.5s; }
+.guide-section:nth-child(6) { animation-delay: 0.6s; }
+
+/* Cartes de guides */
+.guide-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-card:hover {
+  animation: guideCardHover 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Boutons avec animation */
+.guide-button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.guide-button:hover::before {
+  left: 100%;
+}
+
+.guide-button:active {
+  animation: buttonPulse 0.2s ease-in-out;
+}
+
+/* Icônes animées */
+.guide-icon {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-icon:hover {
+  animation: iconBounce 0.6s ease-in-out;
+}
+
+/* Contenu avec animation de chargement */
+.guide-content {
+  animation: contentFadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Barre de progression */
+.guide-progress {
+  animation: progressBar 2s ease-in-out forwards;
+}
+
+/* Animations pour les éléments interactifs */
+.guide-interactive {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Animation de focus pour l'accessibilité */
+.guide-focus:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  animation: buttonPulse 0.3s ease-in-out;
+}
+
+/* Animation de chargement pour les images */
+.guide-image {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-image:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Animation de texte */
+.guide-text {
+  animation: contentFadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Animation de navigation */
+.guide-nav {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-nav:hover {
+  transform: translateX(5px);
+}
+
+/* Animation de retour */
+.guide-back {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-back:hover {
+  transform: translateX(-5px);
+}
+
+/* Animation des badges */
+.guide-badge {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Animation de scroll smooth */
+.guide-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Animation de révélation progressive */
+.guide-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.guide-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animation de chargement */
+.guide-loading {
+  animation: contentFadeIn 0.4s ease-in-out infinite alternate;
+}
+
+/* Responsive animations */
+@media (max-width: 768px) {
+  .guide-card:hover {
+    animation: none;
+    transform: translateY(-4px) scale(1.01);
+  }
+  
+  .guide-section {
+    animation-duration: 0.6s;
+  }
+}
+
+/* Animation de transition entre pages */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Animation de stagger pour les listes */
+.guide-list-item {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: contentFadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.guide-list-item:nth-child(1) { animation-delay: 0.1s; }
+.guide-list-item:nth-child(2) { animation-delay: 0.2s; }
+.guide-list-item:nth-child(3) { animation-delay: 0.3s; }
+.guide-list-item:nth-child(4) { animation-delay: 0.4s; }
+.guide-list-item:nth-child(5) { animation-delay: 0.5s; }
+.guide-list-item:nth-child(6) { animation-delay: 0.6s; }
+.guide-list-item:nth-child(7) { animation-delay: 0.7s; }
+.guide-list-item:nth-child(8) { animation-delay: 0.8s; }

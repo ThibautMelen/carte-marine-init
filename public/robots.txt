@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carte-marine.com/sitemap.xml
+Sitemap: https://carte-marine.com/sitemap-images.xml
+
+# Block admin/dev pages
+Disallow: /admin/
+Disallow: /_next/

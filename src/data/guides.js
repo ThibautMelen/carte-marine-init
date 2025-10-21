@@ -1,0 +1,186 @@
+// Navigation guides data for the guides section
+export const GUIDES = [
+  {
+    id: 'lire-carte-marine',
+    title: 'Comment lire une carte marine : guide complet du débutant',
+    excerpt: 'Apprenez à déchiffrer tous les éléments d\'une carte marine en 15 minutes. Symboles, profondeurs, dangers, tout est expliqué simplement avec des exemples concrets.',
+    thumbnail: '/assets/guides/optimized/guide-lire-carte.jpg',
+    alt: 'Mains expérimentées dépliant une carte marine détaillée avec boussole en laiton',
+    readTime: '15 min',
+    difficulty: '🟢 Débutant',
+    category: 'Navigation',
+    pdfLink: '/downloads/guide-lire-carte-marine.pdf',
+    articleLink: '/guides/comment-lire-carte-marine',
+    views: 12500,
+    featured: true
+  },
+  {
+    id: 'planifier-navigation',
+    title: 'Planifier votre première navigation côtière en 7 étapes',
+    excerpt: 'Checklist complète pour préparer votre première sortie en mer. Météo, marées, sécurité, équipement : rien n\'est oublié pour naviguer en toute sécurité.',
+    thumbnail: '/assets/guides/optimized/guide-planifier.jpg',
+    alt: 'Marin expérimenté préparant sa navigation sur le pont d\'un yacht au lever du soleil',
+    readTime: '10 min',
+    difficulty: '🟢 Débutant',
+    category: 'Préparation',
+    pdfLink: '/downloads/guide-planifier-navigation.pdf',
+    articleLink: '/guides/planifier-navigation-cotiere',
+    views: 8200,
+    featured: true
+  },
+  {
+    id: 'calculer-marees',
+    title: 'Calculer les marées : méthode simple expliquée',
+    excerpt: 'Maîtrisez le calcul des marées avec notre méthode simplifiée. Coefficients, heures de marée, hauteur d\'eau : tout devient clair avec des exemples pratiques.',
+    thumbnail: '/assets/guides/optimized/guide-marees.jpg',
+    alt: 'Mains travaillant avec des tables de marée et instruments de calcul sur une table en bois',
+    readTime: '12 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Technique',
+    pdfLink: '/downloads/guide-calculer-marees.pdf',
+    articleLink: '/guides/calculer-marees-methode-simple',
+    views: 6500,
+    featured: false
+  },
+  {
+    id: 'navigation-nuit',
+    title: 'Navigation de nuit : cartes et sécurité',
+    excerpt: 'Les spécificités de la navigation nocturne : éclairage, balisage, cartes adaptées. Conseils pratiques pour naviguer en toute sécurité la nuit.',
+    thumbnail: '/assets/guides/optimized/guide-nuit.jpg',
+    alt: 'Navigation nocturne avec phares et lumières colorées sur l\'océan sombre',
+    readTime: '8 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Sécurité',
+    pdfLink: '/downloads/guide-navigation-nuit.pdf',
+    articleLink: '/guides/navigation-nuit-cartes-securite',
+    views: 4200,
+    featured: false
+  },
+  {
+    id: 'meteo-marine',
+    title: 'Météo marine : comprendre les prévisions pour naviguer',
+    excerpt: 'Décryptez les bulletins météo marins, isobares, vents, vagues. Apprenez à interpréter les prévisions pour choisir le bon moment de navigation.',
+    thumbnail: '/assets/guides/optimized/guide-meteo.jpg',
+    alt: 'Analyse météorologique marine avec baromètre et instruments de mesure',
+    readTime: '14 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Météo',
+    pdfLink: '/downloads/guide-meteo-marine.pdf',
+    articleLink: '/guides/meteo-marine-previsions-navigation',
+    views: 5800,
+    featured: false
+  },
+  {
+    id: 'symboles-essentiels',
+    title: 'Les 20 symboles de carte marine à connaître absolument',
+    excerpt: 'Les symboles indispensables pour naviguer en sécurité. Phares, bouées, dangers : focus sur les plus importants avec des exemples visuels.',
+    thumbnail: '/assets/guides/optimized/guide-symboles.jpg',
+    alt: 'Symboles essentiels de carte marine avec boussole et instruments de navigation',
+    readTime: '6 min',
+    difficulty: '🟢 Débutant',
+    category: 'Navigation',
+    pdfLink: '/downloads/guide-symboles-essentiels.pdf',
+    articleLink: '/guides/symboles-carte-marine-essentiels',
+    views: 9800,
+    featured: false
+  },
+  {
+    id: 'equipement-securite',
+    title: 'Équipement de sécurité : checklist obligatoire et recommandée',
+    excerpt: 'Tout l\'équipement de sécurité obligatoire et recommandé pour la navigation. VFI, fusées, radio : la liste complète avec conseils d\'achat.',
+    thumbnail: '/assets/guides/optimized/guide-equipement.jpg',
+    alt: 'Équipement de sécurité maritime : gilets de sauvetage, fusées, radio VHF',
+    readTime: '11 min',
+    difficulty: '🟢 Débutant',
+    category: 'Sécurité',
+    pdfLink: '/downloads/guide-equipement-securite.pdf',
+    articleLink: '/guides/equipement-securite-checklist',
+    views: 7200,
+    featured: false
+  },
+  {
+    id: 'mouillage-technique',
+    title: 'Techniques de mouillage : choisir et utiliser son ancre',
+    excerpt: 'Les techniques de mouillage expliquées : choix de l\'ancre, calcul de la longueur de chaîne, reconnaissance des fonds, récupération.',
+    thumbnail: '/assets/guides/optimized/guide-mouillage.jpg',
+    alt: 'Techniques de mouillage avec ancre, chaîne et cordage sur le pont d\'un yacht',
+    readTime: '13 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Technique',
+    pdfLink: '/downloads/guide-mouillage-technique.pdf',
+    articleLink: '/guides/mouillage-technique-ancre',
+    views: 5100,
+    featured: false
+  },
+  {
+    id: 'navigation-cotiere',
+    title: 'Navigation côtière : repères, alignements et relèvements',
+    excerpt: 'Les techniques de navigation côtière : utiliser les repères à terre, alignements, relèvements au compas. Méthodes traditionnelles toujours utiles.',
+    thumbnail: '/assets/guides/optimized/guide-cotiere.jpg',
+    alt: 'Navigation côtière avec boussole et repères terrestres en arrière-plan',
+    readTime: '16 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Navigation',
+    pdfLink: '/downloads/guide-navigation-cotiere.pdf',
+    articleLink: '/guides/navigation-cotiere-reperes-alignements',
+    views: 3800,
+    featured: false
+  },
+  {
+    id: 'gps-marine',
+    title: 'GPS marine : utiliser et optimiser son récepteur',
+    excerpt: 'Tout savoir sur le GPS marine : configuration, waypoints, routes, précision. Conseils pour optimiser les performances de votre récepteur.',
+    thumbnail: '/assets/guides/optimized/guide-gps.jpg',
+    alt: 'Écran GPS marine affichant coordonnées et waypoints de navigation',
+    readTime: '9 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Technique',
+    pdfLink: '/downloads/guide-gps-marine.pdf',
+    articleLink: '/guides/gps-marine-utiliser-optimiser',
+    views: 4600,
+    featured: false
+  },
+  {
+    id: 'preparation-sortie',
+    title: 'Préparation d\'une sortie en mer : checklist complète',
+    excerpt: 'La checklist complète avant chaque sortie : météo, marées, carburant, sécurité, équipage. Rien ne doit être oublié pour naviguer sereinement.',
+    thumbnail: '/assets/guides/optimized/guide-preparation.jpg',
+    alt: 'Checklist de préparation maritime avec documents météo et équipement de sécurité',
+    readTime: '7 min',
+    difficulty: '🟢 Débutant',
+    category: 'Préparation',
+    pdfLink: '/downloads/guide-preparation-sortie.pdf',
+    articleLink: '/guides/preparation-sortie-mer-checklist',
+    views: 8900,
+    featured: false
+  },
+  {
+    id: 'reglementation',
+    title: 'Réglementation maritime : permis, équipement, zones',
+    excerpt: 'Tout sur la réglementation maritime française : permis bateau, équipement obligatoire, zones de navigation, sanctions. Mise à jour 2025.',
+    thumbnail: '/assets/guides/optimized/guide-reglementation.jpg',
+    alt: 'Documents officiels de réglementation maritime française sur table en bois',
+    readTime: '18 min',
+    difficulty: '🟡 Intermédiaire',
+    category: 'Sécurité',
+    pdfLink: '/downloads/guide-reglementation-maritime.pdf',
+    articleLink: '/guides/reglementation-maritime-permis-equipement',
+    views: 3200,
+    featured: false
+  }
+];
+
+export const GUIDE_CATEGORIES = [
+  { id: 'all', name: 'Tous', count: GUIDES.length },
+  { id: 'Navigation', name: 'Navigation', count: GUIDES.filter(g => g.category === 'Navigation').length },
+  { id: 'Sécurité', name: 'Sécurité', count: GUIDES.filter(g => g.category === 'Sécurité').length },
+  { id: 'Technique', name: 'Technique', count: GUIDES.filter(g => g.category === 'Technique').length },
+  { id: 'Préparation', name: 'Préparation', count: GUIDES.filter(g => g.category === 'Préparation').length },
+  { id: 'Météo', name: 'Météo', count: GUIDES.filter(g => g.category === 'Météo').length }
+];
+
+export const DIFFICULTY_LEVELS = [
+  { id: 'beginner', name: 'Débutant', icon: '🟢', color: 'text-green-600' },
+  { id: 'intermediate', name: 'Intermédiaire', icon: '🟡', color: 'text-yellow-600' },
+  { id: 'advanced', name: 'Avancé', icon: '🔴', color: 'text-red-600' }
+];
