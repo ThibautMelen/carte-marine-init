@@ -268,7 +268,7 @@ const HeroSection = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Compass className="w-5 h-5" />
-                Quiz Interactif
+                Telecharger le PDF
                 <Anchor className="w-4 h-4 group-hover:rotate-12 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-maritime-coral opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

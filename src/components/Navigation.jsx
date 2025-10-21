@@ -80,7 +80,7 @@ const Navigation = () => {
               aria-label="Jouer au quiz interactif des symboles marins"
             >
               <Download className="w-4 h-4" />
-              Quiz Interactif
+              Telecharger le PDF
             </button>
           </div>
           
@@ -122,7 +122,7 @@ const Navigation = () => {
                   aria-label="Jouer au quiz interactif des symboles marins"
                 >
                   <Download className="w-4 h-4" />
-                  Quiz Interactif
+                  Telecharger le PDF
                 </button>
               </div>
             </div>

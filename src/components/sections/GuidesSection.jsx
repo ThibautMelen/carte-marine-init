@@ -584,11 +584,11 @@ const GuidesSection = ({ onGuideClick }) => {
                       >
                         Lire le guide
                       </button>
-                      <button 
+                      <button
                         onClick={() => window.open('/downloads/guide-complet-cartes-marines.html', '_blank')}
                         className="px-6 py-2 border border-maritime-azure text-maritime-azure rounded-lg hover:bg-maritime-azure hover:text-white transition text-sm focus-visible:ring-2 focus-visible:ring-maritime-azure focus-visible:ring-offset-2"
                       >
-                        Quiz Interactif
+                        Telecharger le PDF
                       </button>
                     </div>
                   </div>
